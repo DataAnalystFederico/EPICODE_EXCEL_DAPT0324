@@ -97,7 +97,8 @@ FROM
 ;
 
 SELECT 
-    *
+    *,
+   SalesAmount - TotalProductCost Profit
 FROM
     factresellersales
 WHERE
